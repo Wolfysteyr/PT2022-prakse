@@ -5,5 +5,5 @@ Plugin</h1>
     <table class="form-table" role="presentation">
         <?php do_settings_fields('plugin_slug', 'default'); ?>
     </table>
-    <?php submit_button(); ?>
-</form>
+    <?php submit_button(); ?> <!-- man vajag, lai ar šīs pogas spiedienu varētu izsaukt save_custom_fields() funkciju no mpp-functions.php --> 
+</form> 
